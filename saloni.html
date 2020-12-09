@@ -23,7 +23,6 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 
@@ -426,31 +425,9 @@
               <script src="assets/vendor/typed.js/typed.min.js"></script>
               <script src="assets/vendor/aos/aos.js"></script>
             
-              <script>
+              
             
-                jQuery("#contactform").submit(function(e) {
-                  // e.preventDefault();
-                  form_data = $(this).serialize();
-                  submit_url = $(this).attr("action");
-                  $.ajax({
-                    type: "POST",
-                    data: form_data,
-                    url: submit_url,
-                    success: function(data) {
-                      console.log("Success");
-                      console.log(data);
-                      alert("Success");
-                    },
-                    error: function(data) {
-                      console.log("Message sent!!");
-                      console.log(data);
-                      alert("Message sent!!");
-                    }
-                  });
-                });
-              </script>
-            
-              <!-- Template Main JS File -->
+     
               <script src="assets/js/main.js"></script>
             
             </body>
